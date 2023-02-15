@@ -167,4 +167,11 @@ body {
   border-radius: 50%;
   box-shadow: 0 0 10px #AEFE02;
   background: #AEFE02;
+}
+
+@media (min-width: 700px) {
+  .main {
+    max-width: 900px;
+    margin: 0 auto;
+  }
 }/*# sourceMappingURL=main.css.map */
