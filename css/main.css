@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  background-color: #0E0E0E;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+.header .photos .social_midias {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.header .photos .social_midias a {
+  text-decoration: none;
+}
+
+.main {
+  max-width: 345px;
+  margin: 0 auto;
+}
+.main .content .title {
+  display: flex;
+  align-items: center;
+}
+.main .content .title img {
+  margin-bottom: 5px;
+}
+.main .content .title h1 {
+  color: #F7F7F7;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 2em;
+  margin-bottom: 5px;
+}
+.main .content .nav .navbar {
+  list-style: none;
+  border-bottom: 3px solid #AEFE02;
+  margin-bottom: 20px;
+}
+.main .content .nav .navbar li {
+  border-radius: 30px;
+  margin-bottom: 15px;
+  border: 1px solid #AEFE02;
+}
+.main .content .nav .navbar li:last-child {
+  margin-bottom: 30px;
+}
+.main .content .nav .navbar a {
+  text-decoration: none;
+}
+.main .content .nav .navbar a h2 {
+  font-family: "Roboto", sans-serif;
+  padding-left: 30px;
+  padding-left: 30px;
+  padding-top: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #F7F7F7;
+}
+.main .content .nav .navbar a .div {
+  display: flex;
+}
+.main .content .nav .navbar a .div img {
+  margin-bottom: 8px;
+  padding-left: 30px;
+}
+.main .content .nav .navbar a .div p {
+  font-family: "Roboto", sans-serif;
+  padding-bottom: 10px;
+  padding-left: 2px;
+  margin-top: 2px;
+  font-size: 12px;
+  color: #9C9C9C;
+}
+.main .contact .title {
+  display: flex;
+  flex-direction: column;
+}
+.main .contact .text {
+  display: flex;
+}
+.main .contact .text img {
+  margin-bottom: 10px;
+  margin-right: 1px;
+}
+.main .contact .text h1 {
+  color: #F7F7F7;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+.main .contact .form {
+  position: relative;
+  font-family: "Roboto", sans-serif;
+}
+.main .contact .form div:nth-child(2) {
+  margin-top: 16px;
+}
+.main .contact .form div:nth-child(3) {
+  margin-top: 16px;
+}
+.main .contact .form div {
+  display: flex;
+  flex-direction: column;
+}
+.main .contact .form div .label {
+  color: #F7F7F7;
+}
+.main .contact .form div .input {
+  margin-top: 8px;
+  outline: none;
+  border: 1px solid #AEFE02;
+  border-radius: 30px;
+  padding: 20px;
+  background-color: #0E0E0E;
+  color: #AEFE02;
+  font-size: 16px;
+}
+.main .contact .form div .input::-moz-placeholder {
+  color: #595959;
+  font-size: 16px;
+}
+.main .contact .form div .input:-ms-input-placeholder {
+  color: #595959;
+  font-size: 16px;
+}
+.main .contact .form div .input::placeholder {
+  color: #595959;
+  font-size: 16px;
+}
+.main .contact .form div .button {
+  outline: none;
+  background-color: #AEFE02;
+  padding: 20px;
+  border-radius: 30px;
+  border: 1px solid #AEFE02;
+  box-shadow: 0 0 10px #AEFE02;
+  margin-top: 15px;
+  margin-bottom: 60px;
+  cursor: pointer;
+}
+.main .contact .form div .button h4 {
+  text-transform: uppercase;
+  color: #023701;
+  font-size: 1.2em;
+}
+.main .contact .form div .home {
+  position: absolute;
+  right: 0;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #AEFE02;
+  border-radius: 50%;
+  box-shadow: 0 0 10px #AEFE02;
+  background: #AEFE02;
+}/*# sourceMappingURL=main.css.map */
